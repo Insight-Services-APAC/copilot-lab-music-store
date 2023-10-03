@@ -14,9 +14,16 @@ Code samples in this lab are often referenced, but the goal is not to copy/paste
 
 ### It's all about the prompts
 
-Experiment with prompt formats. Copilot will sometimes complete your prompts and you should look at it's suggestions. If you have it installed, try out Copilot Chat as well, especially if you have code errors - see if Copilot Chat can explain why you are having the error(s) and how to fix them. 
+When you work with generative AI services like GitHub Copilot you use prompts to intiate the AI service to generate a response. Prompt engineering becomes an important skill to develop as it can help you get the results you want. Experiment with prompt formats and be specific, even indicating which programming language you would like the solution in. Copilot will sometimes complete your prompts and you should look at it's suggestions. If you have it installed, try out Copilot Chat as well, especially if you have code errors - see if Copilot Chat can explain why you are having the error(s) and how to fix them. 
 
-Also, you can use multi-line comments in C# to explain more complex scenarios you need Copilot to help with. 
+Also, you can use multi-line comments in C# to explain more complex scenarios you need Copilot to help with.
+
+```csharp
+/* Create a method that takes these arguments:
+   - Name (string)
+   - Age (int)
+   - HasPets (bool) */
+```
 
 If you want to view alternative suggestions, or discover other ways to use GitHub Copilot, read the [official documentation for more tips](https://docs.github.com/en/copilot/getting-started-with-github-copilot?tool=visualstudio#seeing-your-first-suggestion-1).
 
@@ -40,3 +47,16 @@ If the extension is correctly installed you should see the following banner disp
 If you don't see the banner, but have the extension installed, check that you are logged into the GitHub account that has Copilot enabled.
 
 ![Visual Studio logged into GitHub!](media/2023-09-29_11-41-59.png "Visual Studio logged into GitHub")
+
+## Getting Started
+
+1. Open Visual Studio and choose `Create a new project`
+2. Select the `ASP.NET Core Web App (Model-View-Controller)` C# Project type
+  ![.NET Project to select!](media/2023-09-28_15-22-10.png ".NET Project to select")
+3. There is **no need** to accept the use of SSL certificates if you don't already have them configured.
+4. When prompted enter `CopilotMvcMusicStore` for the project name.
+5. Run the project by hitting F5 and make sure it runs without error.
+
+-----
+
+[Next - Adding a Controller](01-Step01.md)
