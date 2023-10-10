@@ -48,6 +48,14 @@ If you don't see the banner, but have the extension installed, check that you ar
 
 ![Visual Studio logged into GitHub!](media/2023-09-29_11-41-59.png "Visual Studio logged into GitHub")
 
+## If you get stuck
+
+There is a completed sample project that includes prompts at [CopilotMvCMusicStore](https://github.com/sjwaight/CopilotMvCMusicStore). **Don't** just be lazy and copy the prompts. 😂
+
+It's also recommended to open the GitHub Copilot output window so you can see what's happening behind the scnenes.
+
+![GitHub Copilot Output Window!](media/2023-10-10_16-17-26.png "GitHub Copilot Output Window")
+
 ## Getting Started
 
 1. Open Visual Studio and choose `Create a new project`
