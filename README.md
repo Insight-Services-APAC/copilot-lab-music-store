@@ -1,3 +1,6 @@
+> [!IMPORTANT]  
+> **NOTE:** This content is now maintained in the [GitHub-Insight-ANZ-Lab/copilot-lab-music-store-csharp](https://github.com/GitHub-Insight-ANZ-Lab/copilot-lab-music-store-csharp) repository
+> 
 # GitHub Copilot lab for Visual Studio 2022
 
 Welcome to the GitHub Copilot Lab using Visual Studio 2022. In this lab we will recreate the classic ASP.NET MVC MvcMusicStore sample by using Copilot to help us build out our code.
